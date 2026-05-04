@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Gulp build output (regenerate with `gulp`)
+assets/css/style-shared.min.css
+assets/css/blocks/*.min.css
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
