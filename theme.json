@@ -46,14 +46,14 @@
 				{
 					"colors": [
 						"#f0ebe4",
-						"#155f66"
+						"#156f72"
 					],
 					"name": "Secondary and primary",
 					"slug": "secondary-primary"
 				},
 				{
 					"colors": [
-						"#155f66",
+						"#156f72",
 						"#f0ebe4"
 					],
 					"name": "Primary and foreground",
@@ -70,42 +70,42 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(to bottom right,transparent 49.9%,#155f66 50%)",
+					"gradient": "linear-gradient(to bottom right,transparent 49.9%,#156f72 50%)",
 					"name": "Diagonal transparent to primary",
 					"slug": "d-transparent-primary"
 				},
 				{
-					"gradient": "linear-gradient(to bottom right, #155f66 49.9%, transparent 50%)",
+					"gradient": "linear-gradient(to bottom right, #156f72 49.9%, transparent 50%)",
 					"name": "Diagonal primary to transparent",
 					"slug": "d-primary-transparent"
 				},
 				{
-					"gradient": "linear-gradient(to bottom right,#fbf8f3 49.9%,#155f66 50%)",
+					"gradient": "linear-gradient(to bottom right,#fbf8f3 49.9%,#156f72 50%)",
 					"name": "Diagonal white to primary",
 					"slug": "d-white-primary"
 				},
 				{
-					"gradient": "linear-gradient(to bottom right,#155f66 49.9%,#fbf8f3 50%)",
+					"gradient": "linear-gradient(to bottom right,#156f72 49.9%,#fbf8f3 50%)",
 					"name": "Diagonal primary to white",
 					"slug": "d-primary-white"
 				},
 				{
-					"gradient": "linear-gradient(#155f66 49.9%,#fbf8f3 50%)",
+					"gradient": "linear-gradient(#156f72 49.9%,#fbf8f3 50%)",
 					"name": "Horizontal primary to white",
 					"slug": "h-primary-white"
 				},
 				{
-					"gradient": "linear-gradient(#fbf8f3 49.9%,#155f66 50%)",
+					"gradient": "linear-gradient(#fbf8f3 49.9%,#156f72 50%)",
 					"name": "Horizontal white to primary",
 					"slug": "h-white-primary"
 				},
 				{
-					"gradient": "linear-gradient(to right, #155f66 49.9%,#fbf8f3 50%)",
+					"gradient": "linear-gradient(to right, #156f72 49.9%,#fbf8f3 50%)",
 					"name": "Vertical primary to white",
 					"slug": "v-primary-white"
 				},
 				{
-					"gradient": "linear-gradient(to right, #fbf8f3 49.9%,#155f66 50%)",
+					"gradient": "linear-gradient(to right, #fbf8f3 49.9%,#156f72 50%)",
 					"name": "Vertical white to primary",
 					"slug": "v-white-primary"
 				}
@@ -122,7 +122,7 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#155f66",
+					"color": "#156f72",
 					"name": "Primary",
 					"slug": "primary"
 				},
@@ -157,12 +157,12 @@
 					"slug": "line"
 				},
 				{
-					"color": "#9fcfd3",
+					"color": "#3aa7a8",
 					"name": "Teal Light",
 					"slug": "teal-light"
 				},
 				{
-					"color": "#0a3438",
+					"color": "#0a3e41",
 					"name": "Teal Dark",
 					"slug": "teal-dark"
 				},
@@ -180,6 +180,16 @@
 					"color": "#18b2e4",
 					"name": "Cyan Accent",
 					"slug": "cyan-accent"
+				},
+				{
+					"color": "#a02822",
+					"name": "Red",
+					"slug": "red"
+				},
+				{
+					"color": "#c0322e",
+					"name": "Red Light",
+					"slug": "red-light"
 				}
 			]
 		},
