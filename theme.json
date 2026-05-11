@@ -45,24 +45,24 @@
 			"duotone": [
 				{
 					"colors": [
-						"#efefef",
-						"#18b2e4"
+						"#f0ebe4",
+						"#155f66"
 					],
 					"name": "Secondary and primary",
 					"slug": "secondary-primary"
 				},
 				{
 					"colors": [
-						"#18b2e4",
-						"#f0f0f1"
+						"#155f66",
+						"#f0ebe4"
 					],
 					"name": "Primary and foreground",
 					"slug": "primary-contrast"
 				},
 				{
 					"colors": [
-						"#ffffff",
-						"#f0f0f1"
+						"#fbf8f3",
+						"#f0ebe4"
 					],
 					"name": "background and foreground",
 					"slug": "base-contrast"
@@ -70,64 +70,64 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(to bottom right,transparent 49.9%,#18b2e4 50%)",
+					"gradient": "linear-gradient(to bottom right,transparent 49.9%,#155f66 50%)",
 					"name": "Diagonal transparent to primary",
 					"slug": "d-transparent-primary"
 				},
 				{
-					"gradient": "linear-gradient(to bottom right, #18b2e4 49.9%, transparent 50%)",
+					"gradient": "linear-gradient(to bottom right, #155f66 49.9%, transparent 50%)",
 					"name": "Diagonal primary to transparent",
 					"slug": "d-primary-transparent"
 				},
 				{
-					"gradient": "linear-gradient(to bottom right,#fff 49.9%,#18b2e4 50%)",
+					"gradient": "linear-gradient(to bottom right,#fbf8f3 49.9%,#155f66 50%)",
 					"name": "Diagonal white to primary",
 					"slug": "d-white-primary"
 				},
 				{
-					"gradient": "linear-gradient(to bottom right,#18b2e4 49.9%,#fff 50%)",
+					"gradient": "linear-gradient(to bottom right,#155f66 49.9%,#fbf8f3 50%)",
 					"name": "Diagonal primary to white",
 					"slug": "d-primary-white"
 				},
 				{
-					"gradient": "linear-gradient(#18b2e4 49.9%,#fff 50%)",
+					"gradient": "linear-gradient(#155f66 49.9%,#fbf8f3 50%)",
 					"name": "Horizontal primary to white",
 					"slug": "h-primary-white"
 				},
 				{
-					"gradient": "linear-gradient(#fff 49.9%,#18b2e4 50%)",
+					"gradient": "linear-gradient(#fbf8f3 49.9%,#155f66 50%)",
 					"name": "Horizontal white to primary",
 					"slug": "h-white-primary"
 				},
 				{
-					"gradient": "linear-gradient(to right, #18b2e4 49.9%,#fff 50%)",
+					"gradient": "linear-gradient(to right, #155f66 49.9%,#fbf8f3 50%)",
 					"name": "Vertical primary to white",
 					"slug": "v-primary-white"
 				},
 				{
-					"gradient": "linear-gradient(to right, #fff 49.9%,#18b2e4 50%)",
+					"gradient": "linear-gradient(to right, #fbf8f3 49.9%,#155f66 50%)",
 					"name": "Vertical white to primary",
 					"slug": "v-white-primary"
 				}
 			],
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#fbf8f3",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#757575",
+					"color": "#1a1714",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#18b2e4",
+					"color": "#155f66",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#efefef",
+					"color": "#f0ebe4",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
@@ -137,15 +137,85 @@
 					"slug": "transparent"
 				},
 				{
-					"color": "#212121",
+					"color": "#1a1714",
 					"name": "Dark Background",
 					"slug": "dark-bcg"
+				},
+				{
+					"color": "#f7f3ee",
+					"name": "Paper",
+					"slug": "paper"
+				},
+				{
+					"color": "#6f6458",
+					"name": "Muted",
+					"slug": "muted"
+				},
+				{
+					"color": "#ddd5cb",
+					"name": "Line",
+					"slug": "line"
+				},
+				{
+					"color": "#9fcfd3",
+					"name": "Teal Light",
+					"slug": "teal-light"
+				},
+				{
+					"color": "#0a3438",
+					"name": "Teal Dark",
+					"slug": "teal-dark"
+				},
+				{
+					"color": "#c87a47",
+					"name": "Clay",
+					"slug": "clay"
+				},
+				{
+					"color": "#f3ddca",
+					"name": "Clay Light",
+					"slug": "clay-light"
+				},
+				{
+					"color": "#18b2e4",
+					"name": "Cyan Accent",
+					"slug": "cyan-accent"
 				}
 			]
 		},
 		"layout": {
 			"contentSize": "1100px",
 			"wideSize": "1400px"
+		},
+		"shadow": {
+			"defaultPresets": false,
+			"presets": [
+				{
+					"name": "Natural",
+					"shadow": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+					"slug": "natural"
+				},
+				{
+					"name": "Small",
+					"shadow": "0 1px 2px rgba(26, 23, 20, 0.06), 0 1px 1px rgba(26, 23, 20, 0.04)",
+					"slug": "sm"
+				},
+				{
+					"name": "Medium",
+					"shadow": "0 4px 12px rgba(26, 23, 20, 0.08), 0 1px 2px rgba(26, 23, 20, 0.04)",
+					"slug": "md"
+				},
+				{
+					"name": "Large",
+					"shadow": "0 16px 32px rgba(26, 23, 20, 0.12), 0 2px 6px rgba(26, 23, 20, 0.06)",
+					"slug": "lg"
+				},
+				{
+					"name": "Inset",
+					"shadow": "inset 0 1px 2px rgba(26, 23, 20, 0.08)",
+					"slug": "inset"
+				}
+			]
 		},
 		"spacing": {
 			"defaultSpacingSizes": false,
@@ -280,52 +350,68 @@
 					"fontFamily": "Raleway,\"Times New Roman\",\"New York\",Times,\"Noto Serif\",serif",
 					"name": "Raleway",
 					"slug": "raleway"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Dancing Script",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 700",
+							"src": [
+								"file:./assets/fonts/dancing-script-v25.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Dancing Script\",\"Pacifico\",cursive",
+					"name": "Dancing Script",
+					"slug": "dancing-script"
 				}
 			],
 			"fontSizes": [
 				{
 					"fluid": false,
 					"name": "Extra small",
-					"size": "0.6rem",
+					"size": "0.75rem",
 					"slug": "extra-small"
 				},
 				{
 					"fluid": false,
 					"name": "Small",
-					"size": "0.85rem",
+					"size": "0.875rem",
 					"slug": "small"
 				},
 				{
-					"fluid": "false",
+					"fluid": false,
 					"name": "Medium",
-					"size": "1rem",
+					"size": "1.0625rem",
 					"slug": "medium"
 				},
 				{
 					"fluid": {
-						"max": "1.5rem",
-						"min": "1.25rem"
+						"max": "1.4375rem",
+						"min": "1.125rem"
 					},
 					"name": "Large",
-					"size": "1.25rem",
+					"size": "1.4375rem",
 					"slug": "large"
 				},
 				{
 					"fluid": {
-						"max": "2.75rem",
-						"min": "2.5rem"
+						"max": "2.5rem",
+						"min": "1.875rem"
 					},
 					"name": "XL",
-					"size": "2.75rem",
+					"size": "2.5rem",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"max": "3.75rem",
-						"min": "2rem"
+						"max": "3.3125rem",
+						"min": "2.5rem"
 					},
 					"name": "XXL",
-					"size": "3.75rem",
+					"size": "3.3125rem",
 					"slug": "xx-large"
 				}
 			]
@@ -618,7 +704,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--serif)",
+			"fontFamily": "var(--wp--preset--font-family--lora)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"lineHeight": "1.7"
 		}
