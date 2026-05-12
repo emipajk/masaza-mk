@@ -1,113 +1,12 @@
 {
-	"customTemplates": [
-		{
-			"name": "no-title",
-			"postTypes": [
-				"post",
-				"page"
-			],
-			"title": "No title"
-		},
-		{
-			"name": "featured-image",
-			"postTypes": [
-				"post",
-				"page"
-			],
-			"title": "Featured image in header"
-		},
-		{
-			"name": "sidebar-page-template",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page with sidebar"
-		},
-		{
-			"name": "sidebar-post-template",
-			"postTypes": [
-				"post"
-			],
-			"title": "Post with sidebar"
-		},
-		{
-			"name": "single-product",
-			"title": "Single product"
-		},
-		{
-			"name": "archive-product",
-			"title": "Shop (Product archive)"
-		}
-	],
 	"settings": {
-		"appearanceTools": true,
 		"color": {
-			"duotone": [
-				{
-					"colors": [
-						"#f0ebe4",
-						"#156f72"
-					],
-					"name": "Secondary and primary",
-					"slug": "secondary-primary"
-				},
-				{
-					"colors": [
-						"#156f72",
-						"#f0ebe4"
-					],
-					"name": "Primary and foreground",
-					"slug": "primary-contrast"
-				},
-				{
-					"colors": [
-						"#fbf8f3",
-						"#f0ebe4"
-					],
-					"name": "background and foreground",
-					"slug": "base-contrast"
-				}
-			],
+      "defaultPalette": false,
 			"gradients": [
 				{
-					"gradient": "linear-gradient(to bottom right,transparent 49.9%,#156f72 50%)",
-					"name": "Diagonal transparent to primary",
-					"slug": "d-transparent-primary"
-				},
-				{
-					"gradient": "linear-gradient(to bottom right, #156f72 49.9%, transparent 50%)",
-					"name": "Diagonal primary to transparent",
-					"slug": "d-primary-transparent"
-				},
-				{
-					"gradient": "linear-gradient(to bottom right,#fbf8f3 49.9%,#156f72 50%)",
-					"name": "Diagonal white to primary",
-					"slug": "d-white-primary"
-				},
-				{
-					"gradient": "linear-gradient(to bottom right,#156f72 49.9%,#fbf8f3 50%)",
-					"name": "Diagonal primary to white",
-					"slug": "d-primary-white"
-				},
-				{
-					"gradient": "linear-gradient(#156f72 49.9%,#fbf8f3 50%)",
-					"name": "Horizontal primary to white",
-					"slug": "h-primary-white"
-				},
-				{
-					"gradient": "linear-gradient(#fbf8f3 49.9%,#156f72 50%)",
-					"name": "Horizontal white to primary",
-					"slug": "h-white-primary"
-				},
-				{
-					"gradient": "linear-gradient(to right, #156f72 49.9%,#fbf8f3 50%)",
-					"name": "Vertical primary to white",
-					"slug": "v-primary-white"
-				},
-				{
-					"gradient": "linear-gradient(to right, #fbf8f3 49.9%,#156f72 50%)",
-					"name": "Vertical white to primary",
-					"slug": "v-white-primary"
+					"gradient": "linear-gradient(180deg, color-mix(in srgb, var(--wp--preset--color--teal-dark) 78%, transparent) 0%, color-mix(in srgb, var(--wp--preset--color--teal-dark) 62%, transparent) 40%, color-mix(in srgb, var(--wp--preset--color--contrast) 78%, transparent) 100%)",
+					"name": "Hero overlay",
+					"slug": "hero-overlay"
 				}
 			],
 			"palette": [
