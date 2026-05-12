@@ -2,6 +2,8 @@
 	"settings": {
 		"color": {
       "defaultPalette": false,
+      "defaultGradients": false,
+      "defaultDuotone": false,
 			"gradients": [
 				{
 					"gradient": "linear-gradient(180deg, color-mix(in srgb, var(--wp--preset--color--teal-dark) 78%, transparent) 0%, color-mix(in srgb, var(--wp--preset--color--teal-dark) 62%, transparent) 40%, color-mix(in srgb, var(--wp--preset--color--contrast) 78%, transparent) 100%)",
@@ -21,29 +23,9 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#156f72",
-					"name": "Primary",
-					"slug": "primary"
-				},
-				{
-					"color": "#f0ebe4",
-					"name": "Secondary",
-					"slug": "secondary"
-				},
-				{
-					"color": "transparent",
-					"name": "Transparent",
-					"slug": "transparent"
-				},
-				{
-					"color": "#1a1714",
-					"name": "Dark Background",
-					"slug": "dark-bcg"
-				},
-				{
-					"color": "#f7f3ee",
-					"name": "Paper",
-					"slug": "paper"
+					"color": "#2f2a23",
+					"name": "Contrast 2",
+					"slug": "contrast-2"
 				},
 				{
 					"color": "#6f6458",
@@ -51,14 +33,9 @@
 					"slug": "muted"
 				},
 				{
-					"color": "#ddd5cb",
-					"name": "Line",
-					"slug": "line"
-				},
-				{
-					"color": "#3aa7a8",
-					"name": "Teal Light",
-					"slug": "teal-light"
+					"color": "#13ac96",
+					"name": "Massage",
+					"slug": "massage"
 				},
 				{
 					"color": "#0a3e41",
@@ -66,29 +43,24 @@
 					"slug": "teal-dark"
 				},
 				{
-					"color": "#c87a47",
-					"name": "Clay",
-					"slug": "clay"
+					"color": "#cb3638",
+					"name": "Yumeiho",
+					"slug": "yumeiho"
 				},
 				{
-					"color": "#f3ddca",
-					"name": "Clay Light",
-					"slug": "clay-light"
+					"color": "#ddd5cb",
+					"name": "Line",
+					"slug": "line"
 				},
 				{
-					"color": "#18b2e4",
-					"name": "Cyan Accent",
-					"slug": "cyan-accent"
+					"color": "#f7f3ee",
+					"name": "Paper Background",
+					"slug": "paper-bcg"
 				},
 				{
-					"color": "#a02822",
-					"name": "Red",
-					"slug": "red"
-				},
-				{
-					"color": "#c0322e",
-					"name": "Red Light",
-					"slug": "red-light"
+					"color": "transparent",
+					"name": "Transparent",
+					"slug": "transparent"
 				}
 			]
 		},
