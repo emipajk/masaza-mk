@@ -4,7 +4,7 @@
 }
 
 .wp-block-quote cite {
-	color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--massage);
 }
 
 .wp-block-quote::before,
@@ -15,7 +15,7 @@
 	line-height: 1;
 	font-family: "Times New Roman", Times, serif;
 	font-weight: 700;
-	color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--massage);
 }
 
 .wp-block-quote.has-text-align-center::before,

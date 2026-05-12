@@ -24,14 +24,6 @@ function masaza_register_block_styles() {
 	);
 
 	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
-		'core/list',
-		array(
-			'name'  => 'masaza-list-underline',
-			'label' => __( 'Underlined list items', 'masaza' ),
-		)
-	);
-
-	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
 		'core/group',
 		array(
 			'name'  => 'masaza-box-shadow',
@@ -52,14 +44,6 @@ function masaza_register_block_styles() {
 		array(
 			'name'  => 'masaza-box-shadow',
 			'label' => __( 'Box shadow', 'masaza' ),
-		)
-	);
-
-	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
-		'core/details',
-		array(
-			'name'  => 'masaza-plus',
-			'label' => __( 'Plus & minus', 'masaza' ),
 		)
 	);
 }
