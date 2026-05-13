@@ -49,30 +49,13 @@ body :where(body .is-layout-flow) > * {
 	margin-block-start: 0;
 }
 
-/* ==== Reusable CTA buttons ====
-   Drop in via the "Buttons — Yumeiho + Massage pair" / "Button — Book
-   Yumeiho" / "Button — Book Massage" patterns. Block attrs in the page
-   markup own typography, color, padding, and shadow:none; this stylesheet
-   only covers what blocks can't express — no-wrap label, hover lift,
-   mobile full-width stack. */
-.masaza__cta .wp-block-button__link {
-	white-space: nowrap;
+/* === Home Page === */
+
+.masaza-partner__photo img {
+	object-position: top;
+	border-top: 4px solid var(--wp--preset--color--red);
 }
 
-.masaza__cta .wp-block-button__link:hover {
-	filter: brightness(1.1);
-}
-
-@media (max-width: 900px) {
-
-	.masaza__ctas {
-		flex-direction: column;
-		align-items: stretch;
-	}
-
-	.masaza__cta .wp-block-button__link {
-		display: block;
-		text-align: center;
-		width: 100%;
-	}
+.masaza-partner__photo.marija img {
+	border-color: var(--wp--preset--color--teal);
 }

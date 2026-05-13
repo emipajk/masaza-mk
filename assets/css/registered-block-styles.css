@@ -46,3 +46,12 @@ details.is-style-masaza-plus > summary::marker {
 	font-size: 1em;
 	font-family: var(--wp--preset--font-family--monospace);
 }
+
+.is-style-masaza-eyebrow {
+	color: var(--wp--preset--color--teal);
+	font-size: var(--wp--preset--font-size--small);
+	font-family: var(--wp--preset--font-family--raleway);
+	font-weight: 700;
+	letter-spacing: var(--wp--custom--letter-spacing--wider);
+	text-transform: uppercase;
+}

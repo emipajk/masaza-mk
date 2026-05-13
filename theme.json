@@ -1,5 +1,11 @@
 {
   "settings": {
+    "border": {
+      "color":  true,
+      "radius": true,
+      "style":  true,
+      "width":  true
+    },
     "color": {
       "defaultPalette": false,
       "defaultGradients": false,
@@ -69,8 +75,16 @@
         }
       ]
     },
+    "custom": {
+      "letter-spacing": {
+        "tight": "-0.01em",
+        "normal": "0",
+        "wide": "0.08em",
+        "wider": "0.16em"
+      }
+    },
     "layout": {
-      "contentSize": "1100px",
+      "contentSize": "1000px",
       "wideSize": "1400px"
     },
     "shadow": {
@@ -408,6 +422,8 @@
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--raleway)",
           "fontWeight": "400",
+          "letterSpacing": "var(--wp--custom--letter-spacing--wider)",
+          "lineHeight": "1.2",
           "textTransform": "uppercase"
         }
       },

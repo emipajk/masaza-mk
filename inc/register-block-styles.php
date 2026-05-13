@@ -46,6 +46,14 @@ function masaza_register_block_styles() {
 			'label' => __( 'Box shadow', 'masaza' ),
 		)
 	);
+
+	register_block_style( // phpcs:ignore WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style
+		'core/paragraph',
+		array(
+			'name'  => 'masaza-eyebrow',
+			'label' => __( 'Eyebrow', 'masaza' ),
+		)
+	);
 }
 add_action( 'init', 'masaza_register_block_styles' );
 
