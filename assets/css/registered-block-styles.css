@@ -54,4 +54,5 @@ details.is-style-masaza-plus > summary::marker {
 	font-weight: 700;
 	letter-spacing: var(--wp--custom--letter-spacing--wider);
 	text-transform: uppercase;
+	text-align: center;
 }

@@ -31,23 +31,18 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-/* Added by Emilija Pajkovska */
+.site-header + div {
+	margin-bottom: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
 
-.entry-content {
+:where(.wp-site-blocks) > :last-child {
 	margin-block-start: 0;
+	margin-block-end: 0;
 }
 
-.site-footer {
-	margin-block-start: 0;
-}
-
-body .wp-block-cover {
-	/* min-height: 300px; */
-}
-
-body :where(body .is-layout-flow) > * {
-	margin-block-start: 0;
-}
 
 /* === Home Page === */
 

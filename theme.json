@@ -24,6 +24,11 @@
           "slug": "base"
         },
         {
+          "color": "#f7f3ee",
+          "name": "Base-2",
+          "slug": "base-2"
+        },
+        {
           "color": "#1a1714",
           "name": "Contrast",
           "slug": "contrast"
@@ -288,7 +293,10 @@
           "slug": "small"
         },
         {
-          "fluid": false,
+          "fluid": {
+            "max": "16px",
+            "min": "17px"
+          },
           "name": "Medium",
           "size": "17px",
           "slug": "medium"
